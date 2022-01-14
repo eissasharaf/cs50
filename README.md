@@ -20,15 +20,23 @@ plurality: determine the winner candidate in election
 runoff: determine the winner candidate in election
 
 filter-less : apply filter to an image 
+
 recover : recover deleted images from card
+
 speller : check the spelling of a text
 
 crack 
+
 vigenere
+
 whodunit
+
 dna
+
 houses
 
+
+you can get more details on each program from : https://cs50.harvard.edu/x/2022/  and click on (week1 - week5) and then click on (problem set 1 - problem set 5) 
 
 
 
