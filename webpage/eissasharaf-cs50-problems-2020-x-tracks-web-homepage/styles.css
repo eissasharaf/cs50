@@ -1,0 +1,58 @@
+
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: purple;
+
+}
+.intro{
+    padding-right:60px;
+
+}
+.logo{
+    padding-left: 10px;
+    font-size: 40px;
+    color:white;
+    display: inline;
+}
+
+ul{
+    display:inline;
+}
+li{
+
+    float: right;
+    display: block;
+    font-size: 20px;
+    width:130px;
+    height:60px;
+    text-align:center;
+    padding-top:12px;
+    background-color: white;
+}
+
+.middle{
+    width:90%;
+    margin: auto;
+
+}
+.new{
+    display :flex;
+}
+.newpart{
+    width: 400px;
+    margin:auto;
+}
+
+.imgg{
+    width:400px;
+    height:350px
+}
+
+.resturants{
+    width:70%;
+    margin:auto;
+}
+
+

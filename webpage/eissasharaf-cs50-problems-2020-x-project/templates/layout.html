@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/style.css" rel="stylesheet">
+        <title>{% block title %}{% endblock %}</title>
+
+    </head>
+    <body>
+        <header class="header">
+            <div class = "intro">
+                <p class = "logo"><b>JB</b> ArabicCuisine</p>
+                <ul>
+                    <a href="/aboutus"><li>about us</li></a>
+                    <a href="/homemade"><li>homemade</li></a>
+                    <a href="/resturants"><li>resturants</li></a>
+                    <a href="/"><li>main</li></a>
+                </ul>
+            </div>
+        </header>
+        <br><br><br>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
+
+

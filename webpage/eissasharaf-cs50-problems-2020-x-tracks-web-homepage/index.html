@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>JB ArabicFood</title>
+
+    </head>
+    <body>
+        <header class="header">
+            <div class = "intro">
+                <p class = "logo"><b>JB</b> ArabicCuisine</p>
+                <ul>
+                    <a href="aboutus.html"><li>about as</li></a>
+                    <a href="homemade.html"><li>homemade</li></a>
+                    <a href="Resturants.html"><li>resturants</li></a>
+                    <a href="index.html"><li>main</li></a>
+                </ul>
+            </div>
+        </header>
+        <br><br><br>
+        <div class="card middle">
+            <div class="card-body">
+                <h5 class="card-title">about arabic food</h5>
+                <p class="card-text">Arab cuisine is the cuisine of the Arabs, defined as the various regional cuisines spanning the Arab world,
+                                    from the Maghreb to the Fertile Crescent and the Arabian Peninsula.[1] The cuisines are often centuries old
+                                    and reflect the culture of great trading in spices, herbs, and foods. The three main regions, also known as
+                                    the Maghreb, the Fertile Crescent, and the Arabian Peninsula, have many similarities, but also many unique
+                                    traditions. These cuisines have been influenced by the climate, cultivating possibilities, as well as trading
+                                    possibilities.</p>
+                <a href="https://en.wikipedia.org/wiki/Arab_cuisine" class="btn btn-primary">more</a>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="new">
+            <div class="card newpart">
+                <img src="images.jpg" class="card-img-top imgg" alt="arabicfood" >
+                <div class="card-body">
+                    <h5 class="card-title">Resturants</h5>
+                    <a href="Resturants.html"  class="btn btn-primary">Our Resturants</a>
+                </div>
+            </div>
+            <div class="card newpart">
+                <img src="Capture.JPG" class="card-img-top imgg" alt="arabicfood" >
+                <div class="card-body">
+                    <h5 class="card-title">homemade</h5>
+                    <a href="homemade.html"  class="btn btn-primary">homemade food</a>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="card middle">
+            <h5 class="card-header">Join us</h5>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">resturant name</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            document.querySelector('#submit').onclick = function() {
+                alert("we will contact you soon");
+            }
+        </script>
+    </body>
+</html>
+
+
